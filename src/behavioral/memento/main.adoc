@@ -1,0 +1,37 @@
+# Memento
+:source-highlighter: highlight.js
+
+## Example
+
+.state.hpp
+[source,c++]
+----
+include::src/state.hpp[]
+----
+
+.memento.hpp
+[source,c++]
+----
+include::src/memento.hpp[]
+----
+
+.originator.hpp
+[source,c++]
+----
+include::src/originator.hpp[]
+----
+
+.main.cpp
+[source,c++]
+----
+include::src/main.cpp[]
+----
+
+.Output
+[source]
+----
+State initialized (0)
+State saved (0)
+State changed (1)
+State restored (0)
+----
