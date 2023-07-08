@@ -24,7 +24,7 @@
 .main.cpp
 [source,c++]
 ----
-include::$behavioral/memento/src/main.cpp[]
+include::pages$behavioral/memento/src/main.cpp[]
 ----
 
 .Output
