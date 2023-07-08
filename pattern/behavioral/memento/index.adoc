@@ -1,6 +1,14 @@
 # Memento
 :source-highlighter: highlight.js
 
+## Diagrams
+
+.Class diagram
+[plantuml,memento-class-diagram,svg]
+----
+include::diagrams.puml[tag=class-diagram]
+----
+
 ## Example
 
 .state.hpp
@@ -28,7 +36,7 @@ include::src/main.cpp[]
 ----
 
 .Output
-[source]
+[source,text]
 ----
 State initialized (0)
 State saved (0)

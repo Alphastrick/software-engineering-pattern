@@ -1,7 +1,7 @@
 # Pattern
 
-* link:architectural[Architectural Pattern]
-* link:behavioral[Behavioral Pattern]
-* link:concurrency[Concurrency Pattern]
-* link:creational[Creational Pattern]
-* link:structural[Structural Pattern]
+* link:architectural/index.adoc[Architectural Pattern]
+* link:behavioral/index.adoc[Behavioral Pattern]
+* link:concurrency/index.adoc[Concurrency Pattern]
+* link:creational/index.adoc[Creational Pattern]
+* link:structural/index.adoc[Structural Pattern]

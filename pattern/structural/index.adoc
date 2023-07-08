@@ -1,1 +1,3 @@
 # Structural Pattern
+
+* link:decorator/index.adoc[Decorator]

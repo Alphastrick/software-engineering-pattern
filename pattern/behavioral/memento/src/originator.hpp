@@ -8,33 +8,31 @@ class originator {
     public:
 
         explicit originator(int value = 0)
-            : m_value(value)
+            : m_state({ value })
         {
-            std::cout << "State initialized (" << m_value << ")\n";
+            std::cout << "State initialized (" << m_state.value << ")\n";
         }
 
         memento save() const
         {
-            const memento saved_state({ m_value });
-            std::cout << "State saved (" << m_value << ")\n";
+            const memento saved_state(m_state);
+            std::cout << "State saved (" << m_state.value << ")\n";
             return saved_state;
         }
 
         void restore(const memento& memento)
         {
-            const auto state = memento.get_state();
-            m_value = state.value;
-            std::cout << "State restored (" << m_value << ")\n";
+            m_state = memento.get_state();
+            std::cout << "State restored (" << m_state.value << ")\n";
         }
 
         void increment()
         {
-            m_value++;
-            std::cout << "State changed (" << m_value << ")\n";
+            std::cout << "State changed (" << ++m_state.value << ")\n";
         }
 
     private:
 
-        int m_value = 0;
+        state m_state;
 
 };

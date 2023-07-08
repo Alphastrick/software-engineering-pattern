@@ -1,0 +1,27 @@
+/'
+tag::class-diagram[]
+'/
+@startuml class-diagram
+
+    class memento {
+        + set_state(s : state) : void
+        + get_state() : state
+    }
+    
+    class originator {
+        + save() : memento
+        + restore(m : memento) : void
+        + increment() : void
+    }
+
+    class state <<(S,#dedede)>>
+    hide state members
+
+    originator -> memento
+    memento o-- state
+    originator o-- state
+
+@enduml
+/'
+end::class-diagram[]
+'/
