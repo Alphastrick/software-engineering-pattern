@@ -3,4 +3,4 @@
 Behavioral Pattern (dt. Verhaltensmuster) sind Entwurfsmuster, welche
 das Verhalten der Software abbilden. 
 
-* link:memento/[Memento]
+* link:memento/index.adoc[Memento]
