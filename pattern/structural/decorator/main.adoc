@@ -1,0 +1,29 @@
+# Decorator
+:source-highlighter: highlight.js
+
+## Example
+
+.component.hpp
+[source,c++]
+----
+include::src/component.hpp[]
+----
+
+.decorator.hpp
+[source,c++]
+----
+include::src/decorator.hpp[]
+----
+
+.main.cpp
+[source,c++]
+----
+include::src/main.cpp[]
+----
+
+.Output
+[source]
+----
+component
+decorated component
+----

@@ -1,0 +1,32 @@
+runtime:
+  cache_dir: ./.cache/antora
+  log:
+    failure_level: warn
+site:
+  title: Software Engineering Pattern
+  start_page: antora::main.adoc
+  robots: allow
+content:
+  sources:
+  - url: https://gitlab.com/Alphastrick/documentation-test.git
+    start_path: doc
+    branches: HEAD
+asciidoc:
+  attributes:
+    experimental: ''
+    hide-uri-scheme: '@'
+    idprefix: ''
+    idseparator: '-'
+    page-pagination: ''
+    table-frame: 'none@'
+    table-grid: 'rows@'
+urls:
+  latest_version_segment: latest
+  latest_version_segment_strategy: redirect:to
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
+  supplemental_files: ./supplemental-ui
+output:
+  dir: ./public
