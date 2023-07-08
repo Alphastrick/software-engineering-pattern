@@ -8,8 +8,8 @@ site:
   robots: allow
 content:
   sources:
-  - url: https://gitlab.com/Alphastrick/documentation-test.git
-    start_path: doc
+  - url: https://gitlab.com/Alphastrick/software-engineering-pattern.git
+    start_path: pattern
     branches: HEAD
 asciidoc:
   attributes:
