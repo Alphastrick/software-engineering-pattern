@@ -4,7 +4,6 @@ runtime:
     failure_level: warn
 site:
   title: Software Engineering Pattern
-  start_page: softwareengineeringpattern::index.adoc
   robots: allow
 content:
   sources:
