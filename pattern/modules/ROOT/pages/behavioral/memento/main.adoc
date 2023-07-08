@@ -6,25 +6,25 @@
 .state.hpp
 [source,c++]
 ----
-include::src/state.hpp[]
+include::behavioral/memento/src/state.hpp[]
 ----
 
 .memento.hpp
 [source,c++]
 ----
-include::src/memento.hpp[]
+include::behavioral/memento/src/memento.hpp[]
 ----
 
 .originator.hpp
 [source,c++]
 ----
-include::src/originator.hpp[]
+include::behavioral/memento/src/originator.hpp[]
 ----
 
 .main.cpp
 [source,c++]
 ----
-include::src/main.cpp[]
+include::behavioral/memento/src/main.cpp[]
 ----
 
 .Output
