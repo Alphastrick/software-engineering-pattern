@@ -1,7 +1,7 @@
-name: antora
+name: softwareengineeringpattern
 version: '3.2'
 prerelease: '.0-alpha.2'
-title: Antora
+title: Software Engineering Pattern
 asciidoc:
   attributes:
     release-date: '2022-11-01'
@@ -18,9 +18,9 @@ asciidoc:
     url-repo: https://gitlab.com/Alphastrick/software-engineering-pattern
     url-asciidoc: https://docs.asciidoctor.org/asciidoc/latest
 nav:
-- main.adoc
-- architectural/main.adoc
-- behavioral/main.adoc
-- concurrency/main.adoc
-- creational/main.adoc
-- structural/main.adoc
+- modules/ROOT/main.adoc
+- modules/ROOT/architectural/main.adoc
+- modules/ROOT/behavioral/main.adoc
+- modules/ROOT/concurrency/main.adoc
+- modules/ROOT/creational/main.adoc
+- modules/ROOT/structural/main.adoc
