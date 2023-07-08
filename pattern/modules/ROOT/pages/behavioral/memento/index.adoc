@@ -24,7 +24,7 @@
 .main.cpp
 [source,c++]
 ----
-include::./src/main.cpp[]
+include::src$main.cpp[]
 ----
 
 .Output
