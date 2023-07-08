@@ -9,7 +9,7 @@ site:
 content:
   sources:
   - url: https://gitlab.com/Alphastrick/software-engineering-pattern.git
-    start_path: pattern
+    start_path: ./
     branches: HEAD
 asciidoc:
   attributes:
