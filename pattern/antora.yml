@@ -1,32 +1,26 @@
-runtime:
-  cache_dir: ./.cache/antora
-  log:
-    failure_level: warn
-site:
-  title: Software Engineering Pattern
-  start_page: antora::main.adoc
-  robots: allow
-content:
-  sources:
-  - url: https://gitlab.com/Alphastrick/software-engineering-pattern.git
-    start_path: pattern
-    branches: HEAD
+name: antora
+version: '3.2'
+prerelease: '.0-alpha.2'
+title: Antora
 asciidoc:
   attributes:
-    experimental: ''
-    hide-uri-scheme: '@'
-    idprefix: ''
-    idseparator: '-'
-    page-pagination: ''
-    table-frame: 'none@'
-    table-grid: 'rows@'
-urls:
-  latest_version_segment: latest
-  latest_version_segment_strategy: redirect:to
-ui:
-  bundle:
-    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
-    snapshot: true
-  supplemental_files: ./supplemental-ui
-output:
-  dir: ./public
+    release-date: '2022-11-01'
+    release-tag: testing
+    release-version: '3.2.0-alpha.2'
+    source-language: asciidoc@
+    xrefstyle: short@
+    example-caption: false
+    listing-caption: Example@
+    version-node-major: '18'
+    version-node: '18.12.0'
+    version-npm: '8.19.2'
+    url-node-releases: https://nodejs.org/en/about/releases/
+    url-repo: https://gitlab.com/Alphastrick/software-engineering-pattern
+    url-asciidoc: https://docs.asciidoctor.org/asciidoc/latest
+nav:
+- main.adoc
+- architectural/main.adoc
+- behavioral/main.adoc
+- concurrency/main.adoc
+- creational/main.adoc
+- structural/main.adoc
