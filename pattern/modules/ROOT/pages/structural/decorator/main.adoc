@@ -6,19 +6,19 @@
 .component.hpp
 [source,c++]
 ----
-include::pattern/modules/ROOT/pages/structural/decorator/src/component.hpp[]
+include::pages/structural/decorator/src/component.hpp[]
 ----
 
 .decorator.hpp
 [source,c++]
 ----
-include::pattern/modules/ROOT/pages/structural/decorator/src/decorator.hpp[]
+include::pages/structural/decorator/src/decorator.hpp[]
 ----
 
 .main.cpp
 [source,c++]
 ----
-include::pattern/modules/ROOT/pages/structural/decorator/src/main.cpp[]
+include::pages/structural/decorator/src/main.cpp[]
 ----
 
 .Output
