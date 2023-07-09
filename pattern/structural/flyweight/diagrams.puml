@@ -1,0 +1,23 @@
+/'
+tag::class-diagram[]
+'/
+@startuml class-diagram
+
+    interface flyweight {
+        + operator()() : void
+    }
+    class flyweight_a implements flyweight {
+        + operator()() : void
+    }
+    class flyweight_factory {
+        - m_flyweights : map<std::string, flyweight*>
+        + get_flyweight(key : std::string) : flyweight*
+    }
+
+    flyweight_factory o-> flyweight : maintains
+    flyweight_factory --> flyweight_a : creates
+
+@enduml
+/'
+end::class-diagram[]
+'/

@@ -4,11 +4,13 @@ tag::class-diagram[]
 @startuml class-diagram
 
     class memento {
+        - m_state : state
         + set_state(s : state) : void
         + get_state() : state
     }
     
     class originator {
+        - m_state : state
         + save() : memento
         + restore(m : memento) : void
         + increment() : void

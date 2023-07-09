@@ -1,0 +1,43 @@
+# Flyweight
+:source-highlighter: highlight.js
+
+## Diagrams
+
+.Class diagram
+[plantuml,flyweight-class-diagram,svg]
+----
+include::diagrams.puml[tag=class-diagram]
+----
+
+## Example
+
+.flyweight.hpp
+[source,c++]
+----
+include::src/flyweight.hpp[]
+----
+
+.flyweight_a.hpp
+[source,c++]
+----
+include::src/flyweight_a.hpp[]
+----
+
+.flyweight_factory.hpp
+[source,c++]
+----
+include::src/flyweight_factory.hpp[]
+----
+
+.main.cpp
+[source,c++]
+----
+include::src/main.cpp[]
+----
+
+
+[source,text]
+----
+Flyweight A at address 0x55bc7ca7eec0
+Flyweight A at address 0x55bc7ca7eec0
+----
