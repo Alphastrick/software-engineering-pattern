@@ -1,3 +1,4 @@
 # Structural Pattern
 
 * link:decorator/index.adoc[Decorator]
+* link:flyweight/index.adoc[Flyweight]

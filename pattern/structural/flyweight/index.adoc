@@ -35,7 +35,7 @@ include::src/flyweight_factory.hpp[]
 include::src/main.cpp[]
 ----
 
-
+.Output
 [source,text]
 ----
 Flyweight A at address 0x55bc7ca7eec0
