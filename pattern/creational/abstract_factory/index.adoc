@@ -1,0 +1,59 @@
+# Abstract Factory
+:source-highlighter: highlight.js
+
+## Diagrams
+
+.Class diagram
+[plantuml,abstract-factory-class-diagram]
+----
+include::diagrams.puml[tag=class-diagram]
+----
+
+## Example
+
+.abstract_factory.hpp
+[source,c++]
+----
+include::src/abstract_factory.hpp[]
+----
+
+.abstract_product.hpp
+[source,c++]
+----
+include::src/abstract_product.hpp[]
+----
+
+.concrete_factory_a.hpp
+[source,c++]
+----
+include::src/concrete_factory_a.hpp[]
+----
+
+.concrete_factory_b.hpp
+[source,c++]
+----
+include::src/concrete_factory_b.hpp[]
+----
+
+.concrete_product_a.hpp
+[source,c++]
+----
+include::src/concrete_product_a.hpp[]
+----
+
+.concrete_product_b.hpp
+[source,c++]
+----
+include::src/concrete_product_b.hpp[]
+----
+
+.main.cpp
+[source,c++]
+----
+include::src/main.cpp[]
+----
+
+.Output
+[source,text]
+----
+----

@@ -1,0 +1,35 @@
+/'
+tag::class-diagram[]
+'/
+@startuml class-diagram
+
+    hide interface fields
+    hide class fields
+
+    interface abstract_factory {
+        + create_product() : abstract_product
+    }
+    class concrete_factory_a implements abstract_factory {
+        + create_product() : abstract_product
+    }
+    class concrete_factory_b implements abstract_factory {
+        + create_product() : abstract_product
+    }
+    interface abstract_product {
+        + operator()() : void
+    }
+    class concrete_product_a implements abstract_product {
+        + operator()() : void
+    }
+    class concrete_product_b implements abstract_product {
+        + operator()() : void
+    }
+
+    abstract_factory --> abstract_product
+    concrete_factory_a --> concrete_product_a : creates
+    concrete_factory_b --> concrete_product_b : creates
+
+@enduml
+/'
+end::class-diagram[]
+'/

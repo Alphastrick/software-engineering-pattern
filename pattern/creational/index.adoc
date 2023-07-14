@@ -1,1 +1,3 @@
 # Creational Pattern
+
+* link:abstract_factory/index.adoc[Abstract Factory]
