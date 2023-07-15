@@ -56,4 +56,6 @@ include::src/main.cpp[]
 .Output
 [source,text]
 ----
+Product A
+Product B
 ----
