@@ -1,0 +1,31 @@
+# Singleton
+:source-highlighter: highlight.js
+
+## Diagrams
+
+.Class diagram
+[plantuml,singleton-class-diagram,svg]
+----
+include::diagrams.puml[tag=class-diagram]
+----
+
+## Example
+
+.singleton.hpp
+[source,c++]
+----
+include::src/singleton.hpp[]
+----
+
+.main.cpp
+[source,c++]
+----
+include::src/main.cpp[]
+----
+
+.Output
+[source,text]
+----
+0
+0
+----
