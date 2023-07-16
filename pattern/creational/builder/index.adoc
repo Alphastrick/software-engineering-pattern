@@ -8,7 +8,7 @@
 include::diagrams.puml[tag=class-diagram]
 ----
 
-## Example``
+## Example
 
 .object.hpp
 [source,c++]
