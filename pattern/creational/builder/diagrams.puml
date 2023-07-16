@@ -15,7 +15,7 @@ tag::class-diagram[]
         + get_prefix() : string
     }
 
-    class concrete_builder {
+    class concrete_builder implements builder {
         - m_prefix : string
         + build() : object
         + set_prefix(prefix : string) : void
@@ -26,6 +26,9 @@ tag::class-diagram[]
         - m_name : string
         + operator()() : void
     }
+
+    director o- builder : "uses"
+    concrete_builder -left-> object : "creates"
 
 
 @enduml
