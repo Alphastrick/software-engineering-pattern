@@ -1,0 +1,34 @@
+/'
+tag::class-diagram[]
+'/
+@startuml class-diagram
+
+    class director {
+        - m_builder : builder
+        + configure() : void
+        + build() : object
+    }
+
+    interface builder {
+        + build() : object
+        + set_prefix(prefix : string) : void
+        + get_prefix() : string
+    }
+
+    class concrete_builder {
+        - m_prefix : string
+        + build() : object
+        + set_prefix(prefix : string) : void
+        + get_prefix() : string
+    }
+
+    class object {
+        - m_name : string
+        + operator()() : void
+    }
+
+
+@enduml
+/'
+end::class-diagram[]
+'/

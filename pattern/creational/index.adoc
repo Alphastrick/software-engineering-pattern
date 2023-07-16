@@ -1,3 +1,4 @@
 # Creational Pattern
 
 * link:abstract_factory/index.adoc[Abstract Factory]
+* link:builder/index.adoc[Builder]

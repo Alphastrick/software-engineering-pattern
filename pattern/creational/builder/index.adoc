@@ -1,0 +1,47 @@
+# Builder
+:source-highlighter: highlight.js
+
+## Diagrams
+
+[plantuml,builder-class-diagram,svg]
+----
+include::diagrams.puml[tag=class-diagram]
+----
+
+## Example``
+
+.object.hpp
+[source,c++]
+----
+include::src/object.hpp[]
+----
+
+.builder.hpp
+[source,c++]
+----
+include::src/builder.hpp[]
+----
+
+.concrete_builder.hpp
+[source,c++]
+----
+include::src/concrete_builder.hpp[]
+----
+
+.director.hpp
+[source,c++]
+----
+include::src/director.hpp[]
+----
+
+.main.cpp
+[source,c++]
+----
+include::src/main.cpp[]
+----
+
+.Output
+[source,text]
+----
+Object 'Some Concrete Object'
+----
