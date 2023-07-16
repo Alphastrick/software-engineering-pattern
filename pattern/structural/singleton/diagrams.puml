@@ -6,7 +6,7 @@ tag::class-diagram[]
     class singleton {
         - {static} : m_id_counter : int
         - m_id : int
-        - {static} m_instance : singleton*
+        - {static} m_instance : singleton
         - constructor()
         + {static} get_intance() : singleton&
         + get_id() : int

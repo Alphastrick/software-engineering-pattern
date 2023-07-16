@@ -14,3 +14,4 @@ add_executable (abstract_factory pattern/creational/abstract_factory/src/main.cp
 # structural patterns
 add_executable (decorator pattern/structural/decorator/src/main.cpp)
 add_executable (flyweight pattern/structural/flyweight/src/main.cpp)
+add_executable (singleton pattern/structural/singleton/src/main.cpp)

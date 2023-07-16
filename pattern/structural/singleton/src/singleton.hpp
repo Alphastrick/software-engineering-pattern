@@ -8,12 +8,7 @@ class singleton {
 
         static singleton& get_instance()
         {
-            if (m_instance == nullptr)
-            {
-                m_instance = std::make_unique<singleton>();
-            }
-
-            return *m_instance;
+            return m_instance;
         }
 
         int get_id() const
@@ -30,9 +25,9 @@ class singleton {
         static int m_id_counter;
         const int m_id;
 
-        static std::unique_ptr<singleton> m_instance;
+        static singleton m_instance;
 
 };
 
 int singleton::m_id_counter = 0;
-std::unique_ptr<singleton> singleton::m_instance = nullptr;
+singleton singleton::m_instance;

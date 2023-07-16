@@ -2,3 +2,4 @@
 
 * link:decorator/index.adoc[Decorator]
 * link:flyweight/index.adoc[Flyweight]
+* link:singleton/index.adoc[Singleton]
