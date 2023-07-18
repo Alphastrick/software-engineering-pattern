@@ -3,4 +3,5 @@
 * link:abstract_factory/index.adoc[Abstract Factory]
 * link:builder/index.adoc[Builder]
 * link:factory_method/index.adoc[Factory Method]
+* link:prototype/index.adoc[Prototype]
 * link:singleton/index.adoc[Singleton]

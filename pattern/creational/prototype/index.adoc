@@ -1,0 +1,31 @@
+# Prototype
+:source-highlighter: highlight.js
+
+## Diagrams
+
+.Class diagram
+[plantuml,prototype-class-diagram,svg]
+----
+include::diagrams.puml[tag=class-diagram]
+----
+
+## Example
+
+.prototype.hpp
+[source,c++]
+----
+include::src/prototype.hpp[]
+----
+
+.main.cpp
+[source,c++]
+----
+include::src/main.cpp[]
+----
+
+.Output
+[source,text]
+----
+1
+1
+----

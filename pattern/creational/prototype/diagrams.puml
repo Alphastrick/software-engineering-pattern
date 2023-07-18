@@ -1,0 +1,15 @@
+/'
+tag::class-diagram[]
+'/
+@startuml class-diagram
+
+    class prototype {
+        - m_value : int
+        + clone() : prototype*
+        + operator()() : void
+    }
+
+@enduml
+/'
+end::class-diagram[]
+'/
