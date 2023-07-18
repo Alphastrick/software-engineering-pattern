@@ -1,0 +1,30 @@
+/'
+tag::class-diagram[]
+'/
+@startuml class-diagram
+
+    hide interface fields
+
+    interface factory {
+        + create() : object*
+    }
+    
+    interface object {
+        + operator()() : void
+    }
+
+    class concrete_factory implements factory {
+        + create() : object*
+    }
+
+    class concrete_object implements object {
+        + operator()() : void
+    }
+
+    factory -> object
+    concrete_factory -> concrete_object
+
+@enduml
+/'
+end::class-diagram[]
+'/

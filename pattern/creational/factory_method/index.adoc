@@ -1,0 +1,48 @@
+# Factory Method
+:source-highlighter: highlight.js
+
+## Diagrams
+
+.Class diagram
+[plantuml,factory-method-class-diagram,svg]
+----
+include::diagrams.puml[tag=class-diagram]
+----
+
+## Example
+
+.factory.hpp
+[source,c++]
+----
+include::src/factory.hpp[]
+----
+
+.concrete_factory.hpp
+[source,c++]
+----
+include::src/concrete_factory.hpp[]
+----
+
+.object.hpp
+[source,c++]
+----
+include::src/object.hpp[]
+----
+
+.concrete_object.hpp
+[source,c++]
+----
+include::src/concrete_object.hpp[]
+----
+
+.main.cpp
+[source,c++]
+----
+include::src/main.cpp[]
+----
+
+.Output
+[source,text]
+----
+Concrete Object
+----
